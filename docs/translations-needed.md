@@ -2,7 +2,7 @@
 
 The currently available translations are in the lang dir. This table shows the completeness of those translations. Anything not listed does not exist yet, so go ahead and create it by copying `en.json`.
 
-If you add or update a translation run `grunt check-translations` to update the list and include this modified doc in the pull request.
+If you add or update a translation run `npm run docs:lang` to update the list and include this modified doc in the pull request.
 
 ## Progress Bar Translations
 
@@ -18,8 +18,8 @@ This default value is hardcoded as a default to the localize method in the SeekB
 | ar.json (missing 53)    | Audio Player                                                                        |
 |                         | Video Player                                                                        |
 |                         | Replay                                                                              |
-|                         | not at live edge, click to seek to live                                             |
-|                         | at live edge                                                                        |
+|                         | Seek to live, currently behind live                                                 |
+|                         | Seek to live, currently playing live                                                |
 |                         | Progress Bar                                                                        |
 |                         | progress bar timing: currentTime={1} duration={2}                                   |
 |                         | Descriptions                                                                        |
@@ -71,8 +71,8 @@ This default value is hardcoded as a default to the localize method in the SeekB
 | ba.json (missing 61)    | Audio Player                                                                        |
 |                         | Video Player                                                                        |
 |                         | Replay                                                                              |
-|                         | not at live edge, click to seek to live                                             |
-|                         | at live edge                                                                        |
+|                         | Seek to live, currently behind live                                                 |
+|                         | Seek to live, currently playing live                                                |
 |                         | Progress Bar                                                                        |
 |                         | progress bar timing: currentTime={1} duration={2}                                   |
 |                         | Descriptions                                                                        |
@@ -132,8 +132,8 @@ This default value is hardcoded as a default to the localize method in the SeekB
 | bg.json (missing 61)    | Audio Player                                                                        |
 |                         | Video Player                                                                        |
 |                         | Replay                                                                              |
-|                         | not at live edge, click to seek to live                                             |
-|                         | at live edge                                                                        |
+|                         | Seek to live, currently behind live                                                 |
+|                         | Seek to live, currently playing live                                                |
 |                         | Progress Bar                                                                        |
 |                         | progress bar timing: currentTime={1} duration={2}                                   |
 |                         | Descriptions                                                                        |
@@ -193,8 +193,8 @@ This default value is hardcoded as a default to the localize method in the SeekB
 | ca.json (missing 61)    | Audio Player                                                                        |
 |                         | Video Player                                                                        |
 |                         | Replay                                                                              |
-|                         | not at live edge, click to seek to live                                             |
-|                         | at live edge                                                                        |
+|                         | Seek to live, currently behind live                                                 |
+|                         | Seek to live, currently playing live                                                |
 |                         | Progress Bar                                                                        |
 |                         | progress bar timing: currentTime={1} duration={2}                                   |
 |                         | Descriptions                                                                        |
@@ -251,15 +251,15 @@ This default value is hardcoded as a default to the localize method in the SeekB
 |                         | Beginning of dialog window. Escape will cancel and close the window.                |
 |                         | End of dialog window.                                                               |
 |                         | {1} is loading.                                                                     |
-| cs.json (missing 2)     | not at live edge, click to seek to live                                             |
-|                         | at live edge                                                                        |
-| cy.json (missing 2)     | not at live edge, click to seek to live                                             |
-|                         | at live edge                                                                        |
+| cs.json (missing 2)     | Seek to live, currently behind live                                                 |
+|                         | Seek to live, currently playing live                                                |
+| cy.json (missing 2)     | Seek to live, currently behind live                                                 |
+|                         | Seek to live, currently playing live                                                |
 | da.json (missing 61)    | Audio Player                                                                        |
 |                         | Video Player                                                                        |
 |                         | Replay                                                                              |
-|                         | not at live edge, click to seek to live                                             |
-|                         | at live edge                                                                        |
+|                         | Seek to live, currently behind live                                                 |
+|                         | Seek to live, currently playing live                                                |
 |                         | Progress Bar                                                                        |
 |                         | progress bar timing: currentTime={1} duration={2}                                   |
 |                         | Descriptions                                                                        |
@@ -316,14 +316,14 @@ This default value is hardcoded as a default to the localize method in the SeekB
 |                         | Beginning of dialog window. Escape will cancel and close the window.                |
 |                         | End of dialog window.                                                               |
 |                         | {1} is loading.                                                                     |
-| de.json (missing 3)     | not at live edge, click to seek to live                                             |
-|                         | at live edge                                                                        |
+| de.json (missing 3)     | Seek to live, currently behind live                                                 |
+|                         | Seek to live, currently playing live                                                |
 |                         | {1} is loading.                                                                     |
 | el.json (missing 47)    | Audio Player                                                                        |
 |                         | Video Player                                                                        |
 |                         | Replay                                                                              |
-|                         | not at live edge, click to seek to live                                             |
-|                         | at live edge                                                                        |
+|                         | Seek to live, currently behind live                                                 |
+|                         | Seek to live, currently playing live                                                |
 |                         | Progress Bar                                                                        |
 |                         | progress bar timing: currentTime={1} duration={2}                                   |
 |                         | Volume Level                                                                        |
@@ -369,8 +369,8 @@ This default value is hardcoded as a default to the localize method in the SeekB
 | es.json (missing 60)    | Audio Player                                                                        |
 |                         | Video Player                                                                        |
 |                         | Replay                                                                              |
-|                         | not at live edge, click to seek to live                                             |
-|                         | at live edge                                                                        |
+|                         | Seek to live, currently behind live                                                 |
+|                         | Seek to live, currently playing live                                                |
 |                         | Progress Bar                                                                        |
 |                         | progress bar timing: currentTime={1} duration={2}                                   |
 |                         | Descriptions                                                                        |
@@ -426,14 +426,14 @@ This default value is hardcoded as a default to the localize method in the SeekB
 |                         | Beginning of dialog window. Escape will cancel and close the window.                |
 |                         | End of dialog window.                                                               |
 |                         | {1} is loading.                                                                     |
-| fa.json (missing 3)     | not at live edge, click to seek to live                                             |
-|                         | at live edge                                                                        |
+| fa.json (missing 3)     | Seek to live, currently behind live                                                 |
+|                         | Seek to live, currently playing live                                                |
 |                         | {1} is loading.                                                                     |
 | fi.json (missing 61)    | Audio Player                                                                        |
 |                         | Video Player                                                                        |
 |                         | Replay                                                                              |
-|                         | not at live edge, click to seek to live                                             |
-|                         | at live edge                                                                        |
+|                         | Seek to live, currently behind live                                                 |
+|                         | Seek to live, currently playing live                                                |
 |                         | Progress Bar                                                                        |
 |                         | progress bar timing: currentTime={1} duration={2}                                   |
 |                         | Descriptions                                                                        |
@@ -490,14 +490,14 @@ This default value is hardcoded as a default to the localize method in the SeekB
 |                         | Beginning of dialog window. Escape will cancel and close the window.                |
 |                         | End of dialog window.                                                               |
 |                         | {1} is loading.                                                                     |
-| fr.json (missing 3)     | not at live edge, click to seek to live                                             |
-|                         | at live edge                                                                        |
+| fr.json (missing 3)     | Seek to live, currently behind live                                                 |
+|                         | Seek to live, currently playing live                                                |
 |                         | {1} is loading.                                                                     |
 | gl.json (missing 60)    | Audio Player                                                                        |
 |                         | Video Player                                                                        |
 |                         | Replay                                                                              |
-|                         | not at live edge, click to seek to live                                             |
-|                         | at live edge                                                                        |
+|                         | Seek to live, currently behind live                                                 |
+|                         | Seek to live, currently playing live                                                |
 |                         | Progress Bar                                                                        |
 |                         | progress bar timing: currentTime={1} duration={2}                                   |
 |                         | Descriptions                                                                        |
@@ -553,14 +553,14 @@ This default value is hardcoded as a default to the localize method in the SeekB
 |                         | Beginning of dialog window. Escape will cancel and close the window.                |
 |                         | End of dialog window.                                                               |
 |                         | {1} is loading.                                                                     |
-| he.json (missing 3)     | not at live edge, click to seek to live                                             |
-|                         | at live edge                                                                        |
+| he.json (missing 3)     | Seek to live, currently behind live                                                 |
+|                         | Seek to live, currently playing live                                                |
 |                         | {1} is loading.                                                                     |
 | hr.json (missing 61)    | Audio Player                                                                        |
 |                         | Video Player                                                                        |
 |                         | Replay                                                                              |
-|                         | not at live edge, click to seek to live                                             |
-|                         | at live edge                                                                        |
+|                         | Seek to live, currently behind live                                                 |
+|                         | Seek to live, currently playing live                                                |
 |                         | Progress Bar                                                                        |
 |                         | progress bar timing: currentTime={1} duration={2}                                   |
 |                         | Descriptions                                                                        |
@@ -620,8 +620,8 @@ This default value is hardcoded as a default to the localize method in the SeekB
 | hu.json (missing 61)    | Audio Player                                                                        |
 |                         | Video Player                                                                        |
 |                         | Replay                                                                              |
-|                         | not at live edge, click to seek to live                                             |
-|                         | at live edge                                                                        |
+|                         | Seek to live, currently behind live                                                 |
+|                         | Seek to live, currently playing live                                                |
 |                         | Progress Bar                                                                        |
 |                         | progress bar timing: currentTime={1} duration={2}                                   |
 |                         | Descriptions                                                                        |
@@ -681,8 +681,8 @@ This default value is hardcoded as a default to the localize method in the SeekB
 | it.json (missing 61)    | Audio Player                                                                        |
 |                         | Video Player                                                                        |
 |                         | Replay                                                                              |
-|                         | not at live edge, click to seek to live                                             |
-|                         | at live edge                                                                        |
+|                         | Seek to live, currently behind live                                                 |
+|                         | Seek to live, currently playing live                                                |
 |                         | Progress Bar                                                                        |
 |                         | progress bar timing: currentTime={1} duration={2}                                   |
 |                         | Descriptions                                                                        |
@@ -742,8 +742,8 @@ This default value is hardcoded as a default to the localize method in the SeekB
 | ja.json (missing 61)    | Audio Player                                                                        |
 |                         | Video Player                                                                        |
 |                         | Replay                                                                              |
-|                         | not at live edge, click to seek to live                                             |
-|                         | at live edge                                                                        |
+|                         | Seek to live, currently behind live                                                 |
+|                         | Seek to live, currently playing live                                                |
 |                         | Progress Bar                                                                        |
 |                         | progress bar timing: currentTime={1} duration={2}                                   |
 |                         | Descriptions                                                                        |
@@ -803,8 +803,8 @@ This default value is hardcoded as a default to the localize method in the SeekB
 | ko.json (missing 61)    | Audio Player                                                                        |
 |                         | Video Player                                                                        |
 |                         | Replay                                                                              |
-|                         | not at live edge, click to seek to live                                             |
-|                         | at live edge                                                                        |
+|                         | Seek to live, currently behind live                                                 |
+|                         | Seek to live, currently playing live                                                |
 |                         | Progress Bar                                                                        |
 |                         | progress bar timing: currentTime={1} duration={2}                                   |
 |                         | Descriptions                                                                        |
@@ -864,8 +864,8 @@ This default value is hardcoded as a default to the localize method in the SeekB
 | nb.json (missing 61)    | Audio Player                                                                        |
 |                         | Video Player                                                                        |
 |                         | Replay                                                                              |
-|                         | not at live edge, click to seek to live                                             |
-|                         | at live edge                                                                        |
+|                         | Seek to live, currently behind live                                                 |
+|                         | Seek to live, currently playing live                                                |
 |                         | Progress Bar                                                                        |
 |                         | progress bar timing: currentTime={1} duration={2}                                   |
 |                         | Descriptions                                                                        |
@@ -922,14 +922,14 @@ This default value is hardcoded as a default to the localize method in the SeekB
 |                         | Beginning of dialog window. Escape will cancel and close the window.                |
 |                         | End of dialog window.                                                               |
 |                         | {1} is loading.                                                                     |
-| nl.json (missing 3)     | not at live edge, click to seek to live                                             |
-|                         | at live edge                                                                        |
+| nl.json (missing 3)     | Seek to live, currently behind live                                                 |
+|                         | Seek to live, currently playing live                                                |
 |                         | {1} is loading.                                                                     |
 | nn.json (missing 61)    | Audio Player                                                                        |
 |                         | Video Player                                                                        |
 |                         | Replay                                                                              |
-|                         | not at live edge, click to seek to live                                             |
-|                         | at live edge                                                                        |
+|                         | Seek to live, currently behind live                                                 |
+|                         | Seek to live, currently playing live                                                |
 |                         | Progress Bar                                                                        |
 |                         | progress bar timing: currentTime={1} duration={2}                                   |
 |                         | Descriptions                                                                        |
@@ -986,14 +986,14 @@ This default value is hardcoded as a default to the localize method in the SeekB
 |                         | Beginning of dialog window. Escape will cancel and close the window.                |
 |                         | End of dialog window.                                                               |
 |                         | {1} is loading.                                                                     |
-| oc.json (missing 3)     | not at live edge, click to seek to live                                             |
-|                         | at live edge                                                                        |
+| oc.json (missing 3)     | Seek to live, currently behind live                                                 |
+|                         | Seek to live, currently playing live                                                |
 |                         | {1} is loading.                                                                     |
 | pl.json (missing 53)    | Audio Player                                                                        |
 |                         | Video Player                                                                        |
 |                         | Replay                                                                              |
-|                         | not at live edge, click to seek to live                                             |
-|                         | at live edge                                                                        |
+|                         | Seek to live, currently behind live                                                 |
+|                         | Seek to live, currently playing live                                                |
 |                         | Progress Bar                                                                        |
 |                         | progress bar timing: currentTime={1} duration={2}                                   |
 |                         | Descriptions                                                                        |
@@ -1042,12 +1042,12 @@ This default value is hardcoded as a default to the localize method in the SeekB
 |                         | Beginning of dialog window. Escape will cancel and close the window.                |
 |                         | End of dialog window.                                                               |
 |                         | {1} is loading.                                                                     |
-| pt-BR.json (missing 2)  | not at live edge, click to seek to live                                             |
-|                         | at live edge                                                                        |
+| pt-BR.json (missing 2)  | Seek to live, currently behind live                                                 |
+|                         | Seek to live, currently playing live                                                |
 | pt-PT.json (missing 46) | Audio Player                                                                        |
 |                         | Video Player                                                                        |
-|                         | not at live edge, click to seek to live                                             |
-|                         | at live edge                                                                        |
+|                         | Seek to live, currently behind live                                                 |
+|                         | Seek to live, currently playing live                                                |
 |                         | Progress Bar                                                                        |
 |                         | progress bar timing: currentTime={1} duration={2}                                   |
 |                         | Volume Level                                                                        |
@@ -1090,15 +1090,15 @@ This default value is hardcoded as a default to the localize method in the SeekB
 |                         | Beginning of dialog window. Escape will cancel and close the window.                |
 |                         | End of dialog window.                                                               |
 |                         | {1} is loading.                                                                     |
-| ru.json (missing 2)     | not at live edge, click to seek to live                                             |
-|                         | at live edge                                                                        |
-| sk.json (missing 2)     | not at live edge, click to seek to live                                             |
-|                         | at live edge                                                                        |
+| ru.json (missing 2)     | Seek to live, currently behind live                                                 |
+|                         | Seek to live, currently playing live                                                |
+| sk.json (missing 2)     | Seek to live, currently behind live                                                 |
+|                         | Seek to live, currently playing live                                                |
 | sr.json (missing 61)    | Audio Player                                                                        |
 |                         | Video Player                                                                        |
 |                         | Replay                                                                              |
-|                         | not at live edge, click to seek to live                                             |
-|                         | at live edge                                                                        |
+|                         | Seek to live, currently behind live                                                 |
+|                         | Seek to live, currently playing live                                                |
 |                         | Progress Bar                                                                        |
 |                         | progress bar timing: currentTime={1} duration={2}                                   |
 |                         | Descriptions                                                                        |
@@ -1158,8 +1158,8 @@ This default value is hardcoded as a default to the localize method in the SeekB
 | sv.json (missing 61)    | Audio Player                                                                        |
 |                         | Video Player                                                                        |
 |                         | Replay                                                                              |
-|                         | not at live edge, click to seek to live                                             |
-|                         | at live edge                                                                        |
+|                         | Seek to live, currently behind live                                                 |
+|                         | Seek to live, currently playing live                                                |
 |                         | Progress Bar                                                                        |
 |                         | progress bar timing: currentTime={1} duration={2}                                   |
 |                         | Descriptions                                                                        |
@@ -1218,8 +1218,8 @@ This default value is hardcoded as a default to the localize method in the SeekB
 |                         | {1} is loading.                                                                     |
 | tr.json (missing 11)    | Audio Player                                                                        |
 |                         | Video Player                                                                        |
-|                         | not at live edge, click to seek to live                                             |
-|                         | at live edge                                                                        |
+|                         | Seek to live, currently behind live                                                 |
+|                         | Seek to live, currently playing live                                                |
 |                         | Progress Bar                                                                        |
 |                         | progress bar timing: currentTime={1} duration={2}                                   |
 |                         | Volume Level                                                                        |
@@ -1230,8 +1230,8 @@ This default value is hardcoded as a default to the localize method in the SeekB
 | uk.json (missing 47)    | Audio Player                                                                        |
 |                         | Video Player                                                                        |
 |                         | Replay                                                                              |
-|                         | not at live edge, click to seek to live                                             |
-|                         | at live edge                                                                        |
+|                         | Seek to live, currently behind live                                                 |
+|                         | Seek to live, currently playing live                                                |
 |                         | Progress Bar                                                                        |
 |                         | progress bar timing: currentTime={1} duration={2}                                   |
 |                         | Volume Level                                                                        |
@@ -1274,15 +1274,15 @@ This default value is hardcoded as a default to the localize method in the SeekB
 |                         | Beginning of dialog window. Escape will cancel and close the window.                |
 |                         | End of dialog window.                                                               |
 |                         | {1} is loading.                                                                     |
-| vi.json (missing 3)     | not at live edge, click to seek to live                                             |
-|                         | at live edge                                                                        |
+| vi.json (missing 3)     | Seek to live, currently behind live                                                 |
+|                         | Seek to live, currently playing live                                                |
 |                         | {1} is loading.                                                                     |
-| zh-CN.json (missing 4)  | not at live edge, click to seek to live                                             |
-|                         | at live edge                                                                        |
+| zh-CN.json (missing 4)  | Seek to live, currently behind live                                                 |
+|                         | Seek to live, currently playing live                                                |
 |                         | progress bar timing: currentTime={1} duration={2}                                   |
 |                         | {1} is loading.                                                                     |
-| zh-TW.json (missing 4)  | not at live edge, click to seek to live                                             |
-|                         | at live edge                                                                        |
+| zh-TW.json (missing 4)  | Seek to live, currently behind live                                                 |
+|                         | Seek to live, currently playing live                                                |
 |                         | progress bar timing: currentTime={1} duration={2}                                   |
 |                         | {1} is loading.                                                                     |
 <!-- END langtable -->
