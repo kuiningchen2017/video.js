@@ -63,10 +63,10 @@ class SeekToLive extends Button {
     if (this.player_.liveTracker.behindLiveEdge()) {
       this.setAttribute('aria-disabled', false);
       this.removeClass('vjs-at-live-edge');
-      this.controlText('Seek To LIVE');
+      this.controlText('not at live edge, click to seek to live');
     } else {
       this.addClass('vjs-at-live-edge');
-      this.controlText('At LIVE edge');
+      this.controlText('at live edge');
       this.setAttribute('aria-disabled', true);
     }
   }
