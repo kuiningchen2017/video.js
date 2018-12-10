@@ -46,11 +46,6 @@ class SeekToLive extends Button {
       'aria-hidden': 'true'
     });
 
-    this.circleEl_ = Dom.createEl('span', {
-      className: 'vjs-seek-to-live-circle'
-    });
-
-    el.appendChild(this.circleEl_);
     el.appendChild(this.textEl_);
     return el;
   }
@@ -86,7 +81,6 @@ class SeekToLive extends Button {
   dispose() {
     this.off(this.player_.liveTracker, 'liveedgechange', this.updateLiveEdgeStatus);
     this.textEl_ = null;
-    this.circleEl_ = null;
 
     super.dispose();
   }
